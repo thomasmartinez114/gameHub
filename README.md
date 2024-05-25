@@ -6,3 +6,5 @@
 - > > > npm install
 - Launch site
   - > > > npm run dev
+- install bootstrap
+  - npm install bootstrap@5.2.3
