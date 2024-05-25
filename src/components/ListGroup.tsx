@@ -1,9 +1,14 @@
 function ListGroup() {
-  const items = ["New York", "Providence", "Austin", "Orlando"]
+  let items = ["New York", "Providence", "Austin", "Orlando"]
+  items = []
 
   return (
     <>
       <h1>List</h1>
+      {/* Ternary */}
+      {/* {items.length === 0 ? <p>No Item Found</p> : null}  */}
+      {/* better way to write without the null being needed */}
+      {items.length === 0 && <p>No Item Found</p>}
       <ul className="list-group">
         {items.map((item) => (
           <li key={item}>{item}</li>
