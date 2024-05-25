@@ -4,7 +4,7 @@ function ListGroup() {
 
   return (
     <>
-      <h1>List</h1>
+      <h1>List below</h1>
       {/* Ternary */}
       {/* {items.length === 0 ? <p>No Item Found</p> : null}  */}
       {/* better way to write without the null being needed */}
