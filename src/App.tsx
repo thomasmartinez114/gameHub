@@ -1,6 +1,8 @@
 // import ListGroup from "./components/ListGroup"
 
-import Alert from "./components/Alert"
+import Button from "./components/Button"
+
+// import Alert from "./components/Alert"
 
 function App() {
   // let items = ["New York", "Providence", "Austin", "Orlando"]
@@ -16,9 +18,10 @@ function App() {
         heading="Cities"
         onSelectItem={handleSelectItem}
       /> */}
-      <Alert>
+      {/* <Alert>
         Hello <span>World</span>
-      </Alert>
+      </Alert> */}
+      <Button>My Button</Button>
     </div>
   )
 }
