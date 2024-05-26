@@ -21,7 +21,7 @@ function App() {
       {/* <Alert>
         Hello <span>World</span>
       </Alert> */}
-      <Button>My Button</Button>
+      <Button onClick={() => console.log("Click")}>My Button</Button>
     </div>
   )
 }
